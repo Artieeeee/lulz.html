@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title> Steam key random generator </title>
+  <link href="massStyle/mass.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script src="massStyle/Animation.js"></script>
+  <script src="ARG.js"></script>
+ </head>
+ <body onload="Onload()">
+  <div class="Labe">
+    <div class="LabePeregorod"></div>
+    <div class="Ltext1" id="TextAnim2">STEAM RANDOM GENERATOR</div>
+    <div class="Ltext" id="TextAnim1">STEAM RANDOM GENERATOR</div>
+  </div>
+
+  <!-- Content in down -->
+  
+  <div class="ContentDiv" id="ContentAnim">
+  <div class="LabePeregorod"></div>
+  <div class="htmBigText">Advanced random key generator</div>
+  <div class="htmText">Думаю, не стоит вам говорить где лучше использовать это, да?</div>
+  <!-- Content start-->
+
+  <input type="button" value="Создать ключ, может повезет?" onclick="OutputMode(RadioCheckGo)" class="inputClass"style="background-color:RGB(50,50,50);"></input>
+   <Br></Br>
+  <input type="text" id="Output" class="inputClass" style="width:70%;background-color:RGB(100,100,100);" readonly></input>
+  <div class="inputClass" style="top:150px;">
+  <input  type="radio" name="1" value="rad1" checked onclick="RadioCheckGo=1;">AAAAA-BBBBB-CCCCC *Recomended/Рекомендованно</input> 
+  <Br></Br>
+  <input type="radio" name="1" value="rad2" onclick="RadioCheckGo=2;"> AAAAA-BBBBB-CCCCC-DDDDD-EEEEE</input>
+  <Br></Br>
+  <input type="radio" name="1" value="rad3" onclick="RadioCheckGo=3;"> 237ABCDGHJLPRST</input>
+  <Br></Br>
+  </div>
+  <!-- Content end -->
+  </div>
+  <a href="Home.lnk" style="position: fixed;bottom:10px; right: 10px; color: White;">To Home page</a>
+ </body>
+</html>
